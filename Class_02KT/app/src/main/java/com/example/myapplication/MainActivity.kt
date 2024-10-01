@@ -106,6 +106,7 @@ class MainActivity : AppCompatActivity() {
             crearLogConMsg(antiguo.toString())
         }
         crearLogConMsg("PARA GIT")
+        crearLogConMsg("Segundo mensaje para Git")
     }
 
     fun crearLog(): Unit {
