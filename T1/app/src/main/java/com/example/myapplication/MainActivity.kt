@@ -150,7 +150,7 @@ class MainActivity : AppCompatActivity() {
 
         // Configura el botón "Limpiar"
         binding.btnLimpiar.setOnClickListener {
-            // Limpia todos los campos de texto
+            // Limpia todos los campos de texto y se empieza de nuevo
             binding.etNombre.text.clear()
             binding.etDni.text.clear()
             binding.etServicio.text.clear()
