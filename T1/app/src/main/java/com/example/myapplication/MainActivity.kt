@@ -10,7 +10,7 @@ import com.example.myapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    // Se utiliza ViewBinding para acceder a las vistas definidas en el archivo XML correspondiente
+    // Se va a utilizar ViewBinding para acceder a las vistas definidas en el archivo XML correspondiente
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
